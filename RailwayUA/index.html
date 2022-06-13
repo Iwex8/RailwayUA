@@ -1,0 +1,617 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<title>ЗалізницяUA</title>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="description" content="RailwayUA">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="styles/bootstrap4/bootstrap.min.css">
+	<link href="plugins/font-awesome-4.7.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+	<link rel="stylesheet" type="text/css" href="plugins/OwlCarousel2-2.2.1/owl.carousel.css">
+	<link rel="stylesheet" type="text/css" href="plugins/OwlCarousel2-2.2.1/owl.theme.default.css">
+	<link rel="stylesheet" type="text/css" href="plugins/OwlCarousel2-2.2.1/animate.css">
+	<link rel="stylesheet" type="text/css" href="styles/main_styles.css">
+	<link rel="stylesheet" type="text/css" href="styles/responsive.css">
+</head>
+
+<body>
+
+	<div class="super_container">
+
+		<!-- Header -->
+
+		<header class="header">
+
+			<!-- Top Bar -->
+
+			<div class="top_bar">
+				<div class="container">
+					<div class="row">
+						<div class="col d-flex flex-row">
+							<div class="phone">+380 12 345-67-89 </div>
+							<div class="social">
+								<ul class="social_list">
+									<li class="social_list_item"><a href="https://www.instagram.com/"><i class="fa fa-instagram"
+												aria-hidden="true"></i></a></li>
+									<li class="social_list_item"><a href="https://www.facebook.com/"><i class="fa fa-facebook"
+												aria-hidden="true"></i></a></li>
+									<li class="social_list_item"><a href="https://twitter.com/"><i class="fa fa-twitter"
+												aria-hidden="true"></i></a>
+									</li>
+								</ul>
+							</div>
+							<div class="user_box ml-auto">
+								<div class="user_box_login user_box_link"><a href="login.html">вхід</a></div>
+								<div class="user_box_register user_box_link"><a href="register.html">реєстрація</a></div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<!-- Navigation -->
+
+			<nav class="main_nav">
+				<div class="container">
+					<div class="row">
+						<div class="col main_nav_col d-flex flex-row align-items-center justify-content-start">
+							<div class="logo_container">
+								<div class="logo"><a href="#"><img class="logo_img" src="images/common/logo.png"
+											alt="logo">ЗалізницяUA</a></div>
+							</div>
+							<div class="main_nav_container ml-auto">
+								<ul class="main_nav_list">
+									<li class="main_nav_item"><a href="#home">головна</a></li>
+									<li class="main_nav_item"><a href="about.html">про нас</a></li>
+									<li class="main_nav_item"><a href="contact.html">зв’язок</a></li>
+								</ul>
+							</div>
+							<div class="content_search ml-lg-0 ml-auto">
+								<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg"
+									xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="17px" height="17px"
+									viewBox="0 0 512 512" enable-background="new 0 0 512 512" xml:space="preserve">
+									<g>
+										<g>
+											<g>
+												<path class="mag_glass" fill="#FFFFFF" d="M78.438,216.78c0,57.906,22.55,112.343,63.493,153.287c40.945,40.944,95.383,63.494,153.287,63.494
+											s112.344-22.55,153.287-63.494C489.451,329.123,512,274.686,512,216.78c0-57.904-22.549-112.342-63.494-153.286
+											C407.563,22.549,353.124,0,295.219,0c-57.904,0-112.342,22.549-153.287,63.494C100.988,104.438,78.439,158.876,78.438,216.78z
+											M119.804,216.78c0-96.725,78.69-175.416,175.415-175.416s175.418,78.691,175.418,175.416
+											c0,96.725-78.691,175.416-175.416,175.416C198.495,392.195,119.804,313.505,119.804,216.78z" />
+											</g>
+										</g>
+										<g>
+											<g>
+												<path class="mag_glass" fill="#FFFFFF" d="M6.057,505.942c4.038,4.039,9.332,6.058,14.625,6.058s10.587-2.019,14.625-6.058L171.268,369.98
+											c8.076-8.076,8.076-21.172,0-29.248c-8.076-8.078-21.172-8.078-29.249,0L6.057,476.693
+											C-2.019,484.77-2.019,497.865,6.057,505.942z" />
+											</g>
+										</g>
+									</g>
+								</svg>
+							</div>
+
+							<form id="search_form" class="search_form bez_1">
+								<input type="search" class="search_content_input bez_1">
+							</form>
+							<div class="hamburger">
+								<i class="fa fa-bars trans_200"></i>
+							</div>
+						</div>
+					</div>
+				</div>
+			</nav>
+		</header>
+
+		<div class="menu trans_500">
+			<div class="menu_content d-flex flex-column align-items-center justify-content-center text-center">
+				<div class="menu_close_container">
+					<div class="menu_close"></div>
+				</div>
+				<div class="logo menu_logo"><a href="#"><img src="images/common/logo.png" alt=""></a></div>
+				<ul>
+					<li class="menu_item"><a href="#home">головна</a></li>
+					<li class="menu_item"><a href="about.html">про нас</a></li>
+					<li class="menu_item"><a href="contact.html">зв’язок</a></li>
+				</ul>
+			</div>
+		</div>
+
+		<!-- Home -->
+
+		<div class="home" id="home">
+
+			<!-- Home Slider -->
+
+			<div class="home_slider_container">
+
+				<div class="owl-carousel owl-theme home_slider">
+
+					<!-- Slider Item 1 -->
+					<div class="owl-item home_slider_item">
+						<div class="home_slider_background" style="background-image:url(images/index/home_slider1.png)"></div>
+
+						<div class="home_slider_content text-center">
+							<div class="home_slider_content_inner">
+								<h1>подорожуй</h1>
+								<h1>Україною</h1>
+							</div>
+						</div>
+					</div>
+
+					<!-- Slider Item 2 -->
+					<div class="owl-item home_slider_item">
+						<div class="home_slider_background" style="background-image:url(images/index/home_slider2.png)"></div>
+
+						<div class="home_slider_content text-center">
+							<div class="home_slider_content_inner">
+								<h1>відкривай</h1>
+								<h1>нові місця</h1>
+							</div>
+						</div>
+					</div>
+
+					<!-- Slider Item 3 -->
+					<div class="owl-item home_slider_item">
+						<div class="home_slider_background" style="background-image:url(images/index/home_slider3.png)"></div>
+
+						<div class="home_slider_content text-center">
+							<div class="home_slider_content_inner">
+								<h1>спробуй</h1>
+								<h1>ЗалізницяUA</h1>
+							</div>
+						</div>
+					</div>
+
+				</div>
+
+				<!-- Home Slider Navigation buttons -->
+				<div class="home_slider_nav home_slider_prev">
+					<img src="images/common/btn_prev.png" style="width: 28px; height: 33px;">
+				</div>
+				<div class="home_slider_nav home_slider_next">
+					<img src="images/common/btn_next.png" style="width: 28px; height: 33px;">
+				</div>
+			</div>
+		</div>
+
+		<!-- Search -->
+		<section id="search">
+			<div class="search">
+				<div class="container fill_height">
+					<div class="row fill_height">
+						<div class="col fill_height">
+
+							<!-- Search Tabs -->
+
+							<div class="search_tabs_container">
+								<div
+									class="search_tabs d-flex flex-lg-row flex-column align-items-lg-center align-items-start justify-content-lg-between justify-content-start">
+									<div
+										class="search_tab active d-flex flex-row align-items-center justify-content-lg-center justify-content-start">
+										<img src="images/common/carriage.png" alt=""><span>Загальний</span>
+									</div>
+									<div
+										class="search_tab d-flex flex-row align-items-center justify-content-lg-center justify-content-start">
+										<img src="images/common/carriage.png" alt="">Люкс
+									</div>
+									<div
+										class="search_tab d-flex flex-row align-items-center justify-content-lg-center justify-content-start">
+										<img src="images/common/carriage.png" alt="">Купе
+									</div>
+									<div
+										class="search_tab d-flex flex-row align-items-center justify-content-lg-center justify-content-start">
+										<img src="images/common/carriage.png" alt="">Плацкарт
+									</div>
+								</div>
+							</div>
+
+							<!-- Search Panel Common-->
+
+							<div class="search_panel active">
+								<form action="#" id="search_form_1"
+									class="search_panel_content d-flex flex-lg-row flex-column align-items-lg-center align-items-start justify-content-lg-between justify-content-start">
+									<div class="search_item">
+										<div>Звідки?</div>
+										<input type="text" class="departure search_input" placeholder="Введіть назву міста"
+											required="required">
+									</div>
+									<div class="search_item">
+										<div>Куди?</div>
+										<input type="text" class="destination search_input" placeholder="Введіть назву міста"
+											required="required">
+									</div>
+									<div class="search_item">
+										<div>Дата відправлення</div>
+										<input type="text" class="check_in search_input" placeholder="РРРР.ММ.ДД"
+											required="required">
+									</div>
+
+									<button class="button search_button"
+										onclick="getData()">пошук<span></span><span></span><span></span></button>
+								</form>
+							</div>
+
+
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<!-- CTA -->
+
+		<div class="cta">
+			<div class="cta_background" style="background-image:url(images/index/adv_backgr.png)"></div>
+
+			<div class="container">
+				<div class="row">
+					<div class="col">
+						<div class="col">
+							<h2 class="section_title text-center">Чому саме ЗалізницяUA?</h2>
+						</div>
+						<!-- CTA Slider -->
+
+						<div class="cta_slider_container">
+							<div class="owl-carousel owl-theme cta_slider">
+
+								<!-- CTA Slider Item -->
+								<div class="owl-item cta_item text-center">
+									<div class="cta_title">Сучасні потяги</div>
+									<div class="rating_r rating_r_5">
+										<i></i>
+										<i></i>
+										<i></i>
+										<i></i>
+										<i></i>
+									</div>
+									<p class="cta_text">Ми використовуємо лише сучасні потяги, зокрема «Інтерсіті», «Інтерсіті+»,
+										дизель-поїзд «Обрій», теплотяг «ТЕЗЗА». Наш транспорт відповідає міжнародним стандартам
+										якості, постійно обслуговується та оновлюється.</p>
+									<div class="button cta_button">
+										<div class="button_bcg"></div><a href="#home">Купити квиток</a>
+									</div>
+								</div>
+
+								<!-- CTA Slider Item -->
+								<div class="owl-item cta_item text-center">
+									<div class="cta_title">Чудовий сервіс</div>
+									<div class="rating_r rating_r_5">
+										<i></i>
+										<i></i>
+										<i></i>
+										<i></i>
+										<i></i>
+									</div>
+									<p class="cta_text">Метою діяльності компанії є задоволення потреб у безпечних та якісних
+										залізничних перевезеннях. Ми дбаємо про те, щоб наші клієнти були задоволеними, а поїздки
+										— швидкими та зручними.</p>
+									<div class="button cta_button">
+										<div class="button_bcg"></div><a href="#home">Купити квиток</a>
+									</div>
+								</div>
+
+								<!-- CTA Slider Item -->
+								<div class="owl-item cta_item text-center">
+									<div class="cta_title">Низькі ціни</div>
+									<div class="rating_r rating_r_5">
+										<i></i>
+										<i></i>
+										<i></i>
+										<i></i>
+										<i></i>
+									</div>
+									<p class="cta_text">У нас ви можете придбати залізничні квитки за найнижчими цінами на ринку!
+										Отримайте знижку 10% на поїзди «Інтерсіті+» при купівлі квитків одразув обидві сторони.
+										Також діє знижка 50% для студентів денної форми навчання.
+									</p>
+									<div class="button cta_button">
+										<div class="button_bcg"></div><a href="#home">Купити квиток</a>
+									</div>
+								</div>
+
+							</div>
+
+							<!-- CTA Slider Nav - Prev -->
+							<div class="cta_slider_nav cta_slider_prev">
+								<img src="images/common/btn_prev.png" style="width: 28px; height: 33px;">
+							</div>
+
+							<!-- CTA Slider Nav - Next -->
+							<div class="cta_slider_nav cta_slider_next">
+								<img src="images/common/btn_next.png" style="width: 28px; height: 33px;">
+							</div>
+
+						</div>
+
+					</div>
+				</div>
+			</div>
+
+		</div>
+
+
+
+		<!-- Reviews -->
+
+		<div class="reviews">
+			<div class="container">
+				<div class="row">
+					<div class="col text-center">
+						<h2 class="section_title">Перегляньте відгуки наших клієнтів</h2>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col">
+
+						<div class="test_slider_container">
+							<div class="owl-carousel owl-theme test_slider">
+
+								<!-- Testimonial Item -->
+								<div class="owl-item">
+									<div class="test_item">
+										<div class="test_image"><img src="images/index/review1.png" alt="review1">
+										</div>
+										<div class="test_content_container">
+											<div class="test_content">
+												<div class="test_item_info">
+													<div class="test_name">Олена</div>
+													<div class="test_date">10.06.2022</div>
+												</div>
+												<div class="test_quote_title">"Чудове обслуговування!"</div>
+												<p class="test_quote_text">Недорого, зручно та швидко. Дуже сподобалось
+													обслуговування під час поїздки.</p>
+											</div>
+										</div>
+									</div>
+								</div>
+
+								<!-- Testimonial Item -->
+								<div class="owl-item">
+									<div class="test_item">
+										<div class="test_image"><img src="images/index/review2.png" alt="review2">
+										</div>
+										<div class="test_content_container">
+											<div class="test_content">
+												<div class="test_item_info">
+													<div class="test_name">Дмитро</div>
+													<div class="test_date">05.06.2022</div>
+												</div>
+												<div class="test_quote_title">"Дуже сподобалось"</div>
+												<p class="test_quote_text">Регулярно їжджу напрямком Дніпро-Львів, поїздками дуже
+													задоволений.</p>
+											</div>
+										</div>
+									</div>
+								</div>
+
+								<!-- Testimonial Item -->
+								<div class="owl-item">
+									<div class="test_item">
+										<div class="test_image"><img src="images/index/review3.png" alt="review3"></div>
+										<div class="test_content_container">
+											<div class="test_content">
+												<div class="test_item_info">
+													<div class="test_name">Ірина</div>
+													<div class="test_date">29.05.2022</div>
+												</div>
+												<div class="test_quote_title">"Все супер"</div>
+												<p class="test_quote_text">Низькі ціни та регулярні акції, обслуговування на
+													найвищому рівні. Усім рекомендую!</p>
+											</div>
+										</div>
+									</div>
+								</div>
+
+								<!-- Testimonial Item -->
+								<div class="owl-item">
+									<div class="test_item">
+										<div class="test_image"><img src="images/index/review4.png" alt="review4"></div>
+										<div class="test_content_container">
+											<div class="test_content">
+												<div class="test_item_info">
+													<div class="test_name">Андрій</div>
+													<div class="test_date">24.05.2022</div>
+												</div>
+												<div class="test_quote_title">"Непогано"</div>
+												<p class="test_quote_text">Сучасні поїзди та низькі ціни, але у вагоні було не дуже
+													чисто.</p>
+											</div>
+										</div>
+									</div>
+								</div>
+
+							</div>
+
+							<!-- Testimonials Slider Nav - Prev -->
+							<div class="test_slider_nav test_slider_prev">
+								<img src="images/common/btn_prev.png" style="width: 28px; height: 33px;">
+							</div>
+							<div class="test_slider_nav test_slider_next">
+								<img src="images/common/btn_next.png" style="width: 28px; height: 33px;">
+							</div>
+
+						</div>
+
+					</div>
+				</div>
+
+			</div>
+		</div>
+
+		<div class="contact">
+			<div class="contact_background" style="background-image:url(images/index/contact.png)"></div>
+
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-5">
+						<div class="contact_image">
+
+						</div>
+					</div>
+					<div class="col-lg-7">
+						<div class="contact_form_container">
+							<div class="contact_title">виникли запитання? зв’яжіться з нами!</div>
+							<form action="#" id="contact_form" class="contact_form">
+								<input type="text" id="contact_form_name" class="contact_form_name input_field"
+									placeholder="Ім’я" required="required">
+								<input type="text" id="contact_form_email" class="contact_form_email input_field"
+									placeholder="E-mail" required="required">
+								<input type="text" id="contact_form_subject" class="contact_form_subject input_field"
+									placeholder="Тема" required="required">
+								<textarea id="contact_form_message" class="text_field contact_form_message" name="message"
+									rows="4" placeholder="Текст" required="required"></textarea>
+								<button type="submit" id="form_submit_button"
+									class="form_submit_button button">надіслати</button>
+							</form>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<!-- Footer -->
+
+		<footer class="footer">
+			<div class="container">
+				<div class="row">
+
+					<!-- Footer Column -->
+					<div class="col-lg-3 footer_column">
+						<div class="footer_col">
+							<div class="footer_content footer_about">
+								<div class="logo_container footer_logo">
+									<div class="logo"><a href="#"><img class="logo_img" src="images/common/logo.png"
+												alt="">ЗалізницяUA</a>
+									</div>
+								</div>
+								<p class="footer_about_text">ЗалізницяUA — сучасна українська залізнична компанія. Метою нашої
+									діяльності є задоволення потреб у безпечних та якісних
+									залізничних перевезеннях. Ми дбаємо про те, щоб наші клієнти були задоволеними, а поїздки
+									— швидкими та зручними.</p>
+								<ul class="footer_social_list">
+									<li class="footer_social_item"><a href="https://www.instagram.com/"><i
+												class="fa fa-instagram"></i></a></li>
+									<li class="footer_social_item"><a href="https://www.facebook.com/"><i
+												class="fa fa-facebook-f"></i></a></li>
+									<li class="footer_social_item"><a href="https://twitter.com/"><i
+												class="fa fa-twitter"></i></a></li>
+								</ul>
+							</div>
+						</div>
+					</div>
+
+					<div class="col-lg-3 footer_column">
+						<div class="footer_col">
+							<div class="footer_title">ми тут</div>
+							<div class="mapouter">
+								<div class="gmap_canvas"><iframe width="500" height="300" id="gmap_canvas"
+										src="https://maps.google.com/maps?q=%D0%B2%D1%83%D0%BB%D0%B8%D1%86%D1%8F%20%D0%A1%D1%82%D0%B5%D0%BF%D0%B0%D0%BD%D0%B0%20%D0%91%D0%B0%D0%BD%D0%B4%D0%B5%D1%80%D0%B8,%2030,%20%D0%9B%D1%8C%D0%B2%D1%96%D0%B2,%20%D0%9B%D1%8C%D0%B2%D1%96%D0%B2%D1%81%D1%8C%D0%BA%D0%B0%20%D0%BE%D0%B1%D0%BB%D0%B0%D1%81%D1%82%D1%8C,%20%D0%A3%D0%BA%D1%80%D0%B0%D1%97%D0%BD%D0%B0,%2079000&t=&z=13&ie=UTF8&iwloc=&output=embed"
+										frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a
+										href=""></a><br>
+									<style>
+										.mapouter {
+											position: relative;
+											text-align: right;
+											height: 300px;
+											width: 500px;
+										}
+
+										.gmap_canvas {
+											overflow: hidden;
+											background: none !important;
+											height: 300px;
+											width: 500px;
+										}
+									</style>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<!-- Footer Column -->
+					<div class="col-lg-3 footer_column">
+						<div class="footer_col">
+
+						</div>
+					</div>
+
+					<!-- Footer Column -->
+					<div class="col-lg-3 footer_column">
+						<div class="footer_col">
+							<div class="footer_title">контактні дані</div>
+							<div class="footer_content footer_contact">
+								<ul class="contact_info_list">
+									<li class="contact_info_item d-flex flex-row">
+										<div>
+											<div class="contact_info_icon"><img src="images/common/placeholder.png" alt=""></div>
+										</div>
+										<div class="contact_info_text">вулиця Степана Бандери, 30, Львів, Львівська область,
+											Україна, 79000</div>
+									</li>
+									<li class="contact_info_item d-flex flex-row">
+										<div>
+											<div class="contact_info_icon"><img src="images/common/phone-call.png" alt=""></div>
+										</div>
+										<div class="contact_info_text">+380 12 345-67-89</div>
+									</li>
+									<li class="contact_info_item d-flex flex-row">
+										<div>
+											<div class="contact_info_icon"><img src="images/common/message.png" alt=""></div>
+										</div>
+										<div class="contact_info_text"><a href="mailto:contactme@gmail.com?Subject=Hello"
+												target="_top">railwayua@rail.ua</a></div>
+									</li>
+									<li class="contact_info_item d-flex flex-row">
+										<div>
+											<div class="contact_info_icon"><img src="images/common/planet-earth.png" alt=""></div>
+										</div>
+										<div class="contact_info_text"><a href="https://railwayua.com">www.railwayua.com</a></div>
+									</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+
+				</div>
+			</div>
+		</footer>
+
+		<!-- Copyright -->
+
+		<div class="copyright">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-3 order-lg-1 order-2  ">
+						<div class="copyright_content d-flex flex-row align-items-center">
+							<div>ЗалізницяUA &copy; 2022 Усі права захищено</div>
+						</div>
+					</div>
+					<div class="col-lg-9 order-lg-2 order-1">
+						<div class="footer_nav_container d-flex flex-row align-items-center justify-content-lg-end">
+							<div class="footer_nav">
+								<ul class="footer_nav_list">
+									<li class="footer_nav_item"><a href="#">головна</a></li>
+									<li class="footer_nav_item"><a href="about.html">про нас</a></li>
+									<li class="footer_nav_item"><a href="contact.html">зв’язок</a></li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+	</div>
+
+	<script src="js/jquery-3.2.1.min.js"></script>
+	<script src="styles/bootstrap4/bootstrap.min.js"></script>
+	<script src="plugins/OwlCarousel2-2.2.1/owl.carousel.js"></script>
+	<script src="js/custom.js"></script>
+	<script src="js/searchTicket.js"></script>
+
+</body>
+
+</html>

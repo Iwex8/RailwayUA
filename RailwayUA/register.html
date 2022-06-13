@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <title>Реєстрація</title>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+   <link rel="stylesheet" type="text/css" href="styles/register.css">
+</head>
+
+<body>
+   <form class="container_main">
+      <h1 class="center">Реєстрація</h1>
+      <p class="center">Будь ласка, заповніть усі поля для реєстрації.</p>
+      <hr>
+      <div class="container">
+         <label for="email"><b>Email</b></label>
+         <br>
+         <input type="text" placeholder="Введіть Email" name="email" required>
+         <br>
+         <label for="psw"><b>Пароль</b></label>
+         <br>
+         <input type="password" placeholder="Enter Password" name="psw" required>
+         <br>
+         <label for="psw-repeat"><b>Повторіть пароль</b></label>
+         <br>
+         <input type="password" placeholder="Введіть пароль" name="psw-repeat" required>
+      </div>
+      <hr>
+      <p class="center">Створюючи акаунт ви погоджуєтеся з нашими <a href="#">Умовами використання</a>.</p>
+      <div class="container">
+         <button class="registerbtn" onclick="index()">Зареєструватися</button>
+      </div>
+      <br>
+      <p class="center">Уже є акаунт? <a href="login.html">Увійти</a>.</p>
+   </form>
+   <script>
+      function index() {
+         document.location.href = "index.html";
+      }
+   </script>
+</body>
+
+</html>

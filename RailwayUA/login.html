@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <title>Авторизація</title>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+   <link rel="stylesheet" type="text/css" href="styles/register.css">
+</head>
+
+<body>
+   <form class="container_main">
+      <h1 class="center">Авторизація</h1>
+      <p class="center">Будь ласка, заповніть усі поля для авторизації.</p>
+      <hr>
+      <div class="container">
+         <label for="email"><b>Email</b></label>
+         <br>
+         <input type="text" placeholder="Введіть Email" name="email" required>
+         <br>
+         <label for="psw"><b>Пароль</b></label>
+         <br>
+         <input type="password" placeholder="Enter Password" name="psw" required>
+         <br>
+      </div>
+      <hr>
+      <p class="center"><a href="#">Забули пароль?</a></p>
+      <div class="container">
+         <button class="registerbtn" onclick="index()">Авторизуватися</button>
+      </div>
+      <br>
+      <p class="center">Немає акаунта? <a href="register.html">Зареєструватися</a>.</p>
+   </form>
+   <script>
+      function index() {
+         document.location.href = "index.html";
+      }
+   </script>
+</body>
+
+</html>
